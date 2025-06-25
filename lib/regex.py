@@ -7,6 +7,7 @@ name = r"John Cena, Anya Taylor-Joy, D'Angelo"
 name_regex = re.compile(r"[A-Z][']*([A-Za-z][ \-']?)+")
 
 # [A-Z][a-z]+(?:['\-][A-Z][a-z]+)?
+# r"^[\w\.-]+@[\w\.-]+\.\w+$"
 
 
 phone_number = r"\(?\d{3}\)?[- ]?\d{3}-?\d{4}"
